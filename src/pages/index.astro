@@ -1,7 +1,10 @@
 ---
 import Nav from "./components/Nav"
 import MainLayout from "../layouts/main-layout.astro"
+const counter = 0
 ---
-<h1> Hello World </h1>
-<Nav/>
-<a href="/about">Go to about</a>
+
+<MainLayout>
+    <h1> Hello {counter}</h1>
+    <a href="/about">Go to about</a>
+</MainLayout>
